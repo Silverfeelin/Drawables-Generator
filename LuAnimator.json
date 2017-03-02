@@ -1,0 +1,35 @@
+{
+  "name": "commonshortsword",
+  "count": 1,
+  "parameters": {
+  	"animationCustom": {
+  		"animatedParts": {
+  			"parts": {
+  				"blade": {
+  					"properties": {
+  						"image": ""
+  					}
+  				},
+				"handle": {
+  					"properties": {
+  						"image": ""
+  					}
+  				}
+  			}
+  		}
+  	},
+    "twoHanded": true,
+    "primaryAbility": {
+      "fireTime" : 0,
+      "stances": {
+        "idle": {
+          "armRotation": 0,
+          "weaponRotation": 0,
+          "allowRotate": false,
+          "allowFlip": true
+        }
+      }
+    },
+	"scrpits": []
+  }
+}
