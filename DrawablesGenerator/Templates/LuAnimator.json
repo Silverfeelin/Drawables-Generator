@@ -1,5 +1,5 @@
 {
-  "name": "commonbroadsword",
+  "name": "commonshortsword",
   "count": 1,
   "parameters": {
   	"animationCustom": {
@@ -7,18 +7,18 @@
   			"parts": {
   				"blade": {
   					"properties": {
-  						"image": "/assetmissing.png"
+  						"image": ""
   					}
   				},
-  				"handle": {
+				"handle": {
   					"properties": {
-  						"image": "/assetmissing.png"
+  						"image": ""
   					}
   				}
   			}
   		}
   	},
-    "twoHanded": false,
+    "twoHanded": true,
     "primaryAbility": {
       "fireTime" : 0,
       "stances": {
@@ -26,9 +26,10 @@
           "armRotation": 0,
           "weaponRotation": 0,
           "allowRotate": false,
-          "allowFlip": false
+          "allowFlip": true
         }
       }
-    }
+    },
+	"scrpits": []
   }
 }
